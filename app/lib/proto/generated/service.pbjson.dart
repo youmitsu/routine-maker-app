@@ -1,6 +1,6 @@
 //
 //  Generated code. Do not modify.
-//  source: helloworld.proto
+//  source: service.proto
 //
 // @dart = 2.12
 

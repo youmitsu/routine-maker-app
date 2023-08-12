@@ -304,13 +304,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.3"
-  grpc_gen:
-    dependency: "direct main"
-    description:
-      path: "../grpc_gen"
-      relative: true
-    source: path
-    version: "1.0.0"
   hooks_riverpod:
     dependency: "direct main"
     description:
@@ -464,13 +457,13 @@ packages:
     source: hosted
     version: "1.5.1"
   protobuf:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: protobuf
-      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
+      sha256: "4034a02b7e231e7e60bff30a8ac13a7347abfdac0798595fae0b90a3f0afe759"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "3.0.0"
   pub_semver:
     dependency: transitive
     description:

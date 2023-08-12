@@ -14,8 +14,7 @@ dependencies:
   hooks_riverpod: ^2.3.7
   go_router: ^5.1.0
   grpc: ^3.0.2
-  grpc_gen:
-    path: ../grpc_gen
+  protobuf: ^3.0.0
 
 dev_dependencies:
   flutter_test:
