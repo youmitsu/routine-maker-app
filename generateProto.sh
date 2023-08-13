@@ -5,4 +5,4 @@ protoc --dart_out=grpc:app/lib/proto/generated -Iprotos protos/service.proto
 cd server
 source ./bin/activate
 python -m pip install -r requirements.txt
-python -m grpc_tools.protoc -I../protos/ --python_out=./proto --pyi_out=./proto --grpc_python_out=./proto ../protos/service.proto
+python -m grpc_tools.protoc -I../protos/ --python_out=./src --pyi_out=./src --grpc_python_out=./src ../protos/service.proto
