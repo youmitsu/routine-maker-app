@@ -27,7 +27,7 @@ class WelcomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                context.go('/home');
+                context.replace('/home');
               },
               child: const Text('はじめる'),
             ),
